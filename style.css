@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom #dcdcdc 50%, #e9e9e9 50%);
+    font-family: sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 300px;
+    padding: 30px;
+    background-color: #f7f7f7;
+    border-radius: 30px;
+    box-shadow: 0 30px 50px #5553;
+    box-sizing: border-box;
+    height: max-content;
+    min-height: 300px;
+}
+
+main form{
+    border: 1px solid #5553;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+main form input, main form button{
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    outline:none;
+}
+
+main form i{
+    opacity: 0.7;
+}
