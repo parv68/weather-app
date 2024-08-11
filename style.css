@@ -4,7 +4,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to bottom #dcdcdc 50%, #e9e9e9 50%);
+    background-image: linear-gradient(to bottom, #dcdcdc 50%, #e9e9e9 50%);
     font-family: sans-serif;
 }
 
@@ -42,4 +42,61 @@ main form input, main form button{
 
 main form i{
     opacity: 0.7;
+}
+
+main .result{
+    text-align: center;
+    padding-top: 20px;
+}
+
+main.result .name{
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+main .temprature img{
+    width: 150px;
+    filter: drop-shadow(0 10px 50px #000);
+}
+
+main .temprature figcaption{
+    font-size: 3em;
+}
+
+main .description{
+    padding: 10px 0 30px;
+}
+
+main ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+main li{
+    background-color: #148b9b;
+    color: #dcdcdc;
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, transparent 50%, #0003 60%);
+    font-weight: bold;
+    font-size: small;
+}
+
+main li i{
+    font-size: 2em;
+    display: block!important;
+    margin: 20px 0;
+}
+
+main li:nth-child(2){
+    background-color: #2e86c1;
+}
+main li:nth-child(3){
+    background-color: #1ba047;
 }
