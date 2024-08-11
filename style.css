@@ -49,7 +49,7 @@ main .result{
     padding-top: 20px;
 }
 
-main.result .name{
+main .result .name{
     font-size: large;
     font-weight: bold;
     display: flex;
